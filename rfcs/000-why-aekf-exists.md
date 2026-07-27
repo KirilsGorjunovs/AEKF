@@ -1,7 +1,7 @@
 # RFC-000 — Why AEKF Exists
 
 - **Status:** Draft
-- **Version:** 0.2
+- **Version:** 0.3
 - **Authors:** AEKF Working Group
 - **Created:** 2026-07-27
 - **Updated:** 2026-07-27
@@ -193,6 +193,35 @@ AEKF defines how engineering knowledge should be:
 - rendered for different consumers.
 
 AEKF does not attempt to prescribe one programming language, framework, architectural style, or development methodology.
+
+## Relationship to Existing Bodies of Knowledge
+
+AEKF does not attempt to replace established bodies of software engineering knowledge.
+
+SWEBOK primarily answers the following question:
+
+> **What belongs to software engineering?**
+
+It provides an established map of generally accepted software engineering knowledge, including its knowledge areas, concepts, activities, methods, practices, and concerns.
+
+AEKF addresses a different class of questions:
+
+> **How should software engineering knowledge be represented, connected, selected, evaluated, and delivered to an AI agent?**
+
+SWEBOK predominantly describes what belongs to software engineering and what software engineers do. It does not provide a universal executable model for determining how engineering knowledge should be:
+
+- represented as reusable knowledge units;
+- connected through dependencies and decision paths;
+- selected for a particular task and context;
+- evaluated for relevance, quality, and effectiveness;
+- loaded progressively into an agent's context;
+- rendered for different AI agents and engineering environments.
+
+AEKF therefore treats SWEBOK as a domain baseline, vocabulary authority, coverage reference, and gateway to primary standards and literature.
+
+It does not adopt the SWEBOK taxonomy as its executable knowledge model.
+
+AEKF complements SWEBOK by addressing the architecture through which established engineering knowledge can be operationalised for AI-assisted software engineering.
 
 ## Non-Goals
 
